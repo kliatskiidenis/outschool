@@ -1,0 +1,9 @@
+.vscode/
+.idea/
+/node_modules/
+npm-debug.log*
+/dist/
+.history/
+
+Thumbs.db
+.DS_Store

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  .section-text {
+    @apply text-base tracking-[-0.002em] text-lightgray;
+  }
+
+  .section-title {
+    @apply text-[44px] font-semibold leading-normal tracking-[-0.002em] md:text-4xl sm:text-3xl;
+  }
+
+  .tab-trigger.active {
+    @apply border-b border-b-blueviolet pb-3 text-blueviolet;
+  }
+
+  .accordion-item.active > .accordion-content {
+    @apply block;
+  }
+
+  .accordion-item.active .accordion-img {
+    @apply rotate-180;
+  }
+}
