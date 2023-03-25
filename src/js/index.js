@@ -24,7 +24,6 @@ const toggleMenuHandler = () => {
 toggleMenuHandler();
 
 // Tabs
-
 const toggleTabsGandler = (tabsTriggersClass, tabsContentClass) => {
   const tabsTriggers = document.querySelectorAll(tabsTriggersClass);
   const tabsContents = document.querySelectorAll(tabsContentClass);
